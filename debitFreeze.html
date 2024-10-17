@@ -1,67 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
-        rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     <title>Email Template</title>
     <style>
+       
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
         body {
             font-family: 'Plus Jakarta Sans', Arial, sans-serif;
             background-color: #fff;
         }
-
-        /* .container {
-            width: 100%;
-            max-width: 550px;
-            margin: 0 auto;
-            background-image: url("./updateimg.png");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            height: 700px;
-            text-align: center;
-        }
-
-        @media only  screen and (max-width:576px) {
-            .container{
-                background-image: url("./updateimg.png");
-                max-width: 340px;
-                height: 500px;
-                width: 100%;
-
-            }
-        } */
+   
         .templateBox {
-            background-color: #e6e5e5;
             padding: 20px;
             text-align: center;
         }
-
-       
-
-        p {
-            margin-top: 10px;
-            line-height: 20px;
-
+        .textBox {
+            padding: 20px;
         }
-
+        p{
+          margin-top:10px;
+          line-height:20px;
+    
+        }
         .footer {
             background-color: #e6e5e5;
             padding: 20px;
             text-align: center;
         }
-
         button {
             background-color: #0065F5;
             color: #fff;
@@ -69,30 +44,25 @@
             border: none;
             border-radius: 4px;
             cursor: pointer;
-            font-family: 'Plus Jakarta Sans', Arial, sans-serif;
-        }
-
+  font-family: 'Plus Jakarta Sans', Arial, sans-serif; 
+  }
         button:hover {
             opacity: 0.9;
         }
-
         .socialIcons img {
             width: 20px;
             margin-right: 10px;
         }
-
         .footerLogo img {
             max-width: 80px;
         }
-
-        .fw-bold {
+        .fw-bold{
             font-weight: 900;
         }
     </style>
 </head>
-
 <body>
-    <table class="container" cellpadding="0" cellspacing="0" border="0" width="100%" style="position: relative;">
+    <table class="container" cellpadding="0" cellspacing="0" border="0" width="100%">
         <tr>
             <td class="templateBox">
                 <img srcset="https://templateemaiil.netlify.app/updateimg.png 576w, https://templateemaiil.netlify.app/updateimg.png 1200w" sizes="(max-width: 576px) 100vw, 100vw"
@@ -101,11 +71,14 @@
         </tr>
         <tr style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
             <td class="textBox" style="text-align: center;">
-
-                <p class="fw-bold">Account Confirmation</p>
+                
+                <p style="font-weight: 500;">Welcome to sky8pay</h1>
                 <p>Hello <span style="font-weight: 700;">Prince,</span></p>
-
-                <p>You have succssfully Created your account.<br> Our team will contact You shortly</p>
+               
+                <p>Debit Freeze </p>
+                <p><span>Name:</span> <span class="fw-bold" style="margin-left: 2px;">Asif Ali</span></p>
+                <p>Amount: <span class="fw-bold" style="margin-left: 2px;">2000</span></p>
+                <p>Freeze Amount <span class="fw-bold" style="margin-left: 2px;">1000</span></p>
                 <p>Regards,</p>
                 <p><strong>Sky8pay.com</strong></p>
             </td>
@@ -121,5 +94,4 @@
         </tr> -->
     </table>
 </body>
-
 </html>
